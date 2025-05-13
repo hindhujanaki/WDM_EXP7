@@ -32,7 +32,7 @@ in a network of web pages based on the structure of the links between them.
     <p>    Visualize using bar chart to represent authority and hub scores.
 
 ### Program:
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -89,7 +89,7 @@ plt.xticks(nodes, [f'Node {i}' for i in nodes])
 plt.legend()
 plt.tight_layout()
 plt.show()
-
+```
 ### Output:
 ![image](https://github.com/user-attachments/assets/a23c4e1e-9075-4287-b6bf-a0b567dc7b6f)
 
